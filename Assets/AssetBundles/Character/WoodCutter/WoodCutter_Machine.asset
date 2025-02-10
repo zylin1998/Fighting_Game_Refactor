@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9975933755e4dff45b29c0990ea9e942, type: 3}
+  m_Name: WoodCutter_Machine
+  m_EditorClassIdentifier: 
+  _Id: GraveRobber
+  _MachineType: 0
+  _States:
+  - {fileID: 11400000, guid: 7f7ef73e2c7e385498fdfc7ceb659fce, type: 2}
+  - {fileID: 11400000, guid: 8098124eb83e5c54682c34f1f4d2fdb1, type: 2}
+  - {fileID: 11400000, guid: a6814eef4766c814b8fc86844e38b26d, type: 2}
+  - {fileID: 11400000, guid: e33293600f880be4595f5a6468a7351f, type: 2}
+  - {fileID: 11400000, guid: 22dace0e13c9b4d44ad390b6dfde224c, type: 2}
+  - {fileID: 11400000, guid: 92f58a29892349b4494ac6c193cc5e7a, type: 2}
+  - {fileID: 11400000, guid: 7b15a4dd52cf35b4f80e64f88dd07ca1, type: 2}
+  - {fileID: 11400000, guid: 17e846c0a54bfbc45817983608f44c2f, type: 2}
+  _Sequence: 1
+  _Cycle: 1
+  _IgnoreEnter: 0
+  _Orders:
+  - Idle
+  - Tracking
+  - Attack1
+  - Delay
+  - Attack2
+  - Delay
+  - Attack3
+  - Delay
+  - Hurt
+  - Dead

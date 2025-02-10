@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9975933755e4dff45b29c0990ea9e942, type: 3}
+  m_Name: SwordMan_Machine
+  m_EditorClassIdentifier: 
+  _Id: SwordMan
+  _MachineType: 0
+  _States:
+  - {fileID: 11400000, guid: 2419de7fceff82e48bc19225a87c75a6, type: 2}
+  - {fileID: 11400000, guid: b64f2daab3c1cc74fbb090c8e1fef5cb, type: 2}
+  - {fileID: 11400000, guid: 5c397aca7789ef14db18478139c54507, type: 2}
+  - {fileID: 11400000, guid: ce538cfa23c2f3944816df409a23e288, type: 2}
+  - {fileID: 11400000, guid: 35c6b5c1bfc2f2742a382edfde864a7f, type: 2}
+  _Sequence: 0
+  _Cycle: 0
+  _IgnoreEnter: 0
+  _Orders: []

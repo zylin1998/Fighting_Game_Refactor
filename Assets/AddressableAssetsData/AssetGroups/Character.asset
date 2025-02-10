@@ -1,0 +1,223 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Character
+  m_EditorClassIdentifier: 
+  m_GroupName: Character
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 22b1b621e7257af46a504fa9389ddb94
+  m_SerializeEntries:
+  - m_GUID: 7e5209be932f938409c13d4bd004f5dd
+    m_Address: SwordMan_Machine
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Character
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1ae76a8a6612a99409f5b396debdcf22
+    m_Address: SwordMan_Facade
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Character
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 027d3673258e6ec45987f79e8af50927
+    m_Address: SwordMan_Attack1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Character
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a745609bca8cf8d4389975af4414149c
+    m_Address: SwordMan_Stat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Character
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0784b886a3e89ab4b845e7bc76f8b559
+    m_Address: GraveRobber_Attack1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Character
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eeb54383584948543a0d7c80f9a2a06d
+    m_Address: GraveRobber_Attack2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Character
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3be5aded61f82734ab0093f8acbe41ff
+    m_Address: GraveRobber_Attack3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Character
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 585e0fb0dc1012a48ac83f98d95c4325
+    m_Address: GraveRobber_Facade
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Character
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bc9d324a88ea7a24cbd3315af97cee71
+    m_Address: GraveRobber_Machine
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Character
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e2a8a578088b87443b09e1b6ee40740d
+    m_Address: GraveRobber_Stat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Character
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c24b1909d15c0be4aa20ea652aaeba69
+    m_Address: SteamMan_Facade
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Character
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e72c3d2041cfe3049971091e28b5a20e
+    m_Address: SteamMan_Attack1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Character
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: af1a49e35dd69c648a8248f3973d6529
+    m_Address: SteamMan_Attack2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Character
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 44bf8d32103b2d840bd8890649ac4458
+    m_Address: SteamMan_Attack3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Character
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9826e2a655a299047a93859b3a5e8979
+    m_Address: SteamMan_Machine
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Character
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dac232337c84738408531f2b9afe6e42
+    m_Address: SteamMan_Stat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Character
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 44512f5fe36fa7a4fb8e235b0024f8d3
+    m_Address: WoodCutter_Facade
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Character
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 05535d86be429794b969e1c62ddcfed7
+    m_Address: WoodCutter_Attack1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Character
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aaee0b9ec45d5214b84dc9429da8b32b
+    m_Address: WoodCutter_Attack2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Character
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c25235ca6258ccf47aa2a842be7996a2
+    m_Address: WoodCutter_Attack3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Character
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d0327d653664de24aa3aedeeec3bf408
+    m_Address: WoodCutter_Machine
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Character
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 299dc721f1df8724b818893f0802d725
+    m_Address: WoodCutter_Stat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Character
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 96a6d8317beea8c4a9ae6b7e494801fa
+    m_Address: DragonWorrior_Facade
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Character
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 03af4e9f55c65244d9bd2838ed84289e
+    m_Address: DragonWorrior_Machine
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Character
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d5a4e5153e84edd44812dda17f458c8b
+    m_Address: DragonWorrior_Stat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Character
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b5556e7e895d140438fe6f8c413d03f7
+    m_Address: DragonWorrior_Touch1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Character
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bcf7d77d17000254bbc193df66370bec
+    m_Address: DragonWorrior_Touch2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Character
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 440d2b78588541448a83134e1d5b46d4
+    m_Address: DragonWorrior_Explosion
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Character
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 212eddc501d34104bb20591243ff9b21
+    m_Address: DragonWorrior_Fireball
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Character
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 020206fd6fc71e742a976a783ac2a9e0
+    m_Address: DragonWorrior_Iblast
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Character
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 80406b60758bb0544bb63dc6d92f3e7f
+    m_Address: DragonWorrior_Shooter1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Character
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: db1a22533a3e303459bfcc84f2713f09
+    m_Address: DragonWorrior_Shooter2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Character
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 921eeb32346c3ef4d955254182705d51
+    m_Address: DragonWorrior_Shooter3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Character
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: fd873fe646b2f6646a5b676ecf153f33, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 0a08b697695f69744a40ec9622b83c9e, type: 2}
+    - {fileID: 11400000, guid: 979f36c61c8875a4188ca7f28aa26c21, type: 2}

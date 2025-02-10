@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f65090840df1dc649a2305de8a3c1ba5, type: 3}
+  m_Name: SwordMan_Stat
+  m_EditorClassIdentifier: 
+  _Character: SwordMan
+  _Integers: []
+  _Floats:
+  - _Id: JumpForce
+    _Value: 15
+  - _Id: Damage
+    _Value: 15
+  - _Id: Health
+    _Value: 100
+  - _Id: Defend
+    _Value: 10
+  - _Id: MoveSpeed
+    _Value: 5
+  _Booleans: []

@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Audio
+  m_EditorClassIdentifier: 
+  m_GroupName: Audio
+  m_Data:
+    m_SerializedData: []
+  m_GUID: e20a7fc4020fc82499dcfd8a984a1d21
+  m_SerializeEntries:
+  - m_GUID: dc139741e6a487f4db0490a85b85c89b
+    m_Address: GraveRobber_Attack_Audio
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 59be6207d3a06834b84175efa3472890
+    m_Address: Battle_Audio
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 37bc807c2fe19614fa2baa254464ffff
+    m_Address: Click_Audio
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a485d320176143d4ea89f66f8850f298
+    m_Address: Menu_Audio
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 30bea5531f4c0e6448d64d1573c8c58c
+    m_Address: Select_Audio
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1e7f8f8d03943cc409e8456bca3b62d8
+    m_Address: SwordMan_Attack_Audio
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 67a49b3d0f5774843b7fca0a60ec6afa
+    m_Address: SteamMan_Attack_Audio
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a75bd08d9f47f0046a58c49137018d9d
+    m_Address: WoodCutter_Attack_Audio
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5e3a3f94b0f49a04e9b2af1998e7402b
+    m_Address: DragonWorrior_Attack_Audio
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: fd873fe646b2f6646a5b676ecf153f33, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 05ce6a202129323429c29179e46e60d3, type: 2}
+    - {fileID: 11400000, guid: 6f4729dbe5aa4c4428ba61634e6856a9, type: 2}

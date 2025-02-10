@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e380f6f94835a2d43a12c0fa87664d40, type: 3}
+  m_Name: Phase3
+  m_EditorClassIdentifier: 
+  _Id: 3
+  _MachineType: 0
+  _States:
+  - {fileID: 11400000, guid: 9e3c815344898c74cbed5e92105f5029, type: 2}
+  - {fileID: 11400000, guid: 77afaa79f7a9fd740b1fc21668f9e28f, type: 2}
+  - {fileID: 11400000, guid: 4b5c6e28850b33240a7a22247bdad31d, type: 2}
+  _Sequence: 1
+  _Cycle: 0
+  _IgnoreEnter: 1
+  _Orders:
+  - Dizzy
+  - Delay
+  - Sequence3
+  _LeavePresentage: 0

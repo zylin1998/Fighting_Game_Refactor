@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0979a0df81fd5b0408e517eaab89f753, type: 3}
+  m_Name: RequireView
+  m_EditorClassIdentifier: 
+  _Menus:
+  - Information
+  - Pause
+  - Result
+  - CutScene
+  - Timer
+  _Listeners:
+  - Integer
+  - Float
+  - Button
+  - Pause
+  _ScriptableObjects: []
+  _Objects:
+  - Select_Audio
+  - Click_Audio
+  _Select: Select_Audio
+  _Click: Click_Audio
