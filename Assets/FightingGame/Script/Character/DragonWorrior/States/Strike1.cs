@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using StateMachine;
+using StateMachineX;
 
 namespace FightingGame.DragonWorrior
 {
@@ -13,7 +13,7 @@ namespace FightingGame.DragonWorrior
             var animator = character.GetModel<AnimatorModel>();
             var movement = character.GetModel<MovementModel>();
 
-            return StateMachine.StateMachine.FunctionalState(character)
+            return StateMachine.FunctionalState(character)
                 .ExitWhen((c) => animator.NormalizeTime("Strike1") >= 0.9)
                 .DoOnEnter((c) =>
                 {

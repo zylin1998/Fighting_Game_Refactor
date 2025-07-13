@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Collections.Generic;
 using UnityEngine;
-using StateMachine;
+using StateMachineX;
 
 namespace FightingGame
 {
@@ -21,7 +21,7 @@ namespace FightingGame
             var movement   = character.GetModel<MovementModel>();
             var health     = character.GetModel<HealthModel>();
             
-            return StateMachine.StateMachine.FunctionalState(character)
+            return StateMachine.FunctionalState(character)
                 .EnterWhen((c) => movement.IsGround && attack.Value && !health.InActive)
                 .ExitWhen ((c) => animator.NormalizeTime(attackId) >= 0.9f || health.InActive)
                 .DoOnEnter((c) =>

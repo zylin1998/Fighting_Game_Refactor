@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using StateMachine;
+using StateMachineX;
 
 namespace FightingGame.DragonWorrior
 {
@@ -19,7 +19,7 @@ namespace FightingGame.DragonWorrior
 
             var time = 0f;
 
-            return StateMachine.StateMachine.FunctionalState(character)
+            return StateMachine.FunctionalState(character)
                 .ExitWhen((c) => time <= 0)
                 .DoOnEnter((c) =>
                 {

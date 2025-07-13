@@ -1,10 +1,8 @@
-﻿using StateMachine;
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Collections.Generic;
 using UnityEngine;
+using StateMachineX;
 
 namespace FightingGame
 {
@@ -17,7 +15,7 @@ namespace FightingGame
             var animator = character.GetModel<AnimatorModel>();
             var movement = character.GetModel<MovementModel>();
 
-            return StateMachine.StateMachine.FunctionalState(character)
+            return StateMachine.FunctionalState(character)
                 .EnterWhen((c) => health.IsDead)
                 .ExitWhen ((c) => false)
                 .DoOnEnter((c) =>

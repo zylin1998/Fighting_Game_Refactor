@@ -1,7 +1,7 @@
-using StateMachine;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using StateMachineX;
 
 namespace FightingGame
 {
@@ -18,7 +18,7 @@ namespace FightingGame
 
             var time = delay.Value;
 
-            return StateMachine.StateMachine.FunctionalState(character)
+            return StateMachine.FunctionalState(character)
                 .EnterWhen((c) => !move.Moving && attack.Value && !health.InActive)
                 .ExitWhen ((c) => time <= 0f || move.Moving || health.InActive)
                 .DoOnEnter((c) =>

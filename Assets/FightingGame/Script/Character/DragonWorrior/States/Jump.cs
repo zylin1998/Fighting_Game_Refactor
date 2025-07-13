@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Loyufei;
-using StateMachine;
+using StateMachineX;
 
 namespace FightingGame.DragonWorrior
 {
@@ -26,7 +26,7 @@ namespace FightingGame.DragonWorrior
             var direct = Vector2.zero;
             var speed  = 0f;
 
-            return StateMachine.StateMachine.FunctionalState(character)
+            return StateMachine.FunctionalState(character)
                 .ExitWhen((c) => movement.IsGround)
                 .DoOnEnter((c) =>
                 {

@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using StateMachine;
+using StateMachineX;
 
 namespace FightingGame.DragonWorrior
 {
@@ -20,7 +20,7 @@ namespace FightingGame.DragonWorrior
 
             shooter.Set(fireball, explosion);
 
-            return StateMachine.StateMachine.FunctionalState(character)
+            return StateMachine.FunctionalState(character)
                 .ExitWhen((c) => animator.NormalizeTime("CrouchAttack") >= 0.9)
                 .DoOnEnter((c) =>
                 {

@@ -1,7 +1,7 @@
-using StateMachine;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using StateMachineX;
 
 namespace FightingGame
 {
@@ -14,7 +14,7 @@ namespace FightingGame
             var health   = character.GetModel<HealthModel>();
             var animator = character.GetModel<AnimatorModel>();
 
-            return StateMachine.StateMachine.FunctionalState(character)
+            return StateMachine.FunctionalState(character)
                 .EnterWhen((c) => movement.Moving && !health.InActive)
                 .ExitWhen ((c) => !movement.Moving || health.InActive)
                 .DoOnEnter((c) => animator.Play("Move"))

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Zenject;
 using Loyufei.MVP;
-using StateMachine;
+using StateMachineX;
 
 namespace FightingGame.QuestScene
 {
@@ -35,26 +35,26 @@ namespace FightingGame.QuestScene
         {
             Model.LoadQuest((QuestInfo)data);
 
-            var count = StateMachine.StateMachine.FunctionalState()
+            var count = StateMachine.FunctionalState()
                 .ExitWhen(() => _CountDown <= 0)
                 .DoOnEnter(StartCountDown)
                 .DoFixedTick(() => _CountDown -= Time.fixedDeltaTime)
                 .WithId(1);
 
-            var enable = StateMachine.StateMachine.FunctionalState()
+            var enable = StateMachine.FunctionalState()
                 .DoOnEnter(Model.StartLoop)
                 .WithId(2);
 
-            var looping = StateMachine.StateMachine.FunctionalState()
+            var looping = StateMachine.FunctionalState()
                 .ExitWhen(Model.GameOver)
                 .DoFixedTick(Model.Looping)
                 .WithId(3);
 
-            var disable = StateMachine.StateMachine.FunctionalState()
+            var disable = StateMachine.FunctionalState()
                 .DoOnEnter(GameOver)
                 .WithId(4);
 
-            Machine = StateMachine.StateMachine.SingleEntrance()
+            Machine = StateMachine.SingleEntrance()
                 .WithStates(count, enable, looping, disable)
                 .Sequence()
                 .OrderBy(1, 2, 3, 4);

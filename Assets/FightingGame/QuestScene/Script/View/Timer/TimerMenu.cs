@@ -5,7 +5,7 @@ using UnityEngine;
 using UniRx;
 using TMPro;
 using Loyufei.MVP;
-using StateMachine;
+using StateMachineX;
 
 namespace FightingGame.QuestScene
 {

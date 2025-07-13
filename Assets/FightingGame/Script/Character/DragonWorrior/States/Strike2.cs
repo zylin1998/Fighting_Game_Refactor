@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Collections.Generic;
 using UnityEngine;
-using StateMachine;
+using StateMachineX;
 
 namespace FightingGame.DragonWorrior
 {
@@ -23,7 +23,7 @@ namespace FightingGame.DragonWorrior
             var time = 0f;
             var side = 0f;
 
-            return StateMachine.StateMachine.FunctionalState(character)
+            return StateMachine.FunctionalState(character)
                 .ExitWhen((c) => time <= 0f)
                 .DoOnEnter((c) =>
                 {

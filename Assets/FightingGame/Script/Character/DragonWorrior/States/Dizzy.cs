@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using StateMachine;
+using StateMachineX;
 
 namespace FightingGame
 {
@@ -20,7 +20,7 @@ namespace FightingGame
 
             var time = 0f;
 
-            return StateMachine.StateMachine.FunctionalState(character)
+            return StateMachine.FunctionalState(character)
                 .ExitWhen((c) => time <= 0 || health.InActive)
                 .DoOnEnter((c) =>
                 {

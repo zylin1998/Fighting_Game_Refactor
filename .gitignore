@@ -60,18 +60,3 @@ sysinfo.txt
 
 # Crashlytics generated file
 crashlytics-build.properties
-
-
-ProjectSettings/
-
-UserSettings/
-
-Assets/Plugins/UniRx/
-
-Assets/Plugins/Zenject/
-
-Assets/Plugins/UniRx.meta
-
-Assets/Plugins/Zenject.meta
-
-Assets/ImportPackage/

@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using StateMachine;
+using StateMachineX;
 
 namespace FightingGame
 {
@@ -25,22 +25,22 @@ namespace FightingGame
 
         private void Awake()
         {
-            var drop = StateMachine.StateMachine.FunctionalState()
+            var drop = StateMachine.FunctionalState()
                 .ExitWhen(() => _Rigidbody.velocity.y <= 0f)
                 .DoOnEnter(() => transform.position += (Vector3.up * _DropDistance))
                 .WithId(1);
 
-            var crash = StateMachine.StateMachine.FunctionalState()
+            var crash = StateMachine.FunctionalState()
                 .DoOnEnter(() => _Animator.Play("Open"))
                 .WithId(2);
 
-            var await = StateMachine.StateMachine.FunctionalState()
+            var await = StateMachine.FunctionalState()
                 .ExitWhen(() => _Await <= 0f)
                 .DoOnEnter(() => _Await = 2f)
                 .DoFixedTick(() => _Await -= Time.fixedDeltaTime)
                 .WithId(3);
 
-            Machine = StateMachine.StateMachine.SingleEntrance()
+            Machine = StateMachine.SingleEntrance()
                 .WithStates(drop, crash, await)
                 .Sequence()
                 .OrderBy(1, 2, 3);

@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using StateMachine;
+using StateMachineX;
 
 namespace FightingGame.DragonWorrior
 {
@@ -18,7 +18,7 @@ namespace FightingGame.DragonWorrior
 
             var height = 0f;
 
-            return StateMachine.StateMachine.FunctionalState(character)
+            return StateMachine.FunctionalState(character)
                 .ExitWhen((c) => (character.Position.y - height) >= _TargetHeight)
                 .DoOnEnter((c) =>
                 {

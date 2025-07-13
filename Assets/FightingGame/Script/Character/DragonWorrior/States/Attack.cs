@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Collections.Generic;
 using UnityEngine;
-using StateMachine;
+using StateMachineX;
 
 namespace FightingGame.DragonWorrior
 {
@@ -19,7 +19,7 @@ namespace FightingGame.DragonWorrior
 
             shooter.Set(iblast);
 
-            return StateMachine.StateMachine.FunctionalState(character)
+            return StateMachine.FunctionalState(character)
                 .ExitWhen((c) => animator.NormalizeTime("Attack") >= 0.9)
                 .DoOnEnter((c) =>
                 {

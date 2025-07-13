@@ -1,8 +1,8 @@
+using System.Linq;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using StateMachine;
-using System.Linq;
+using StateMachineX;
 
 namespace FightingGame.DragonWorrior
 {
@@ -45,7 +45,7 @@ namespace FightingGame.DragonWorrior
             var time = 0f;
             var loop = 0;
 
-            return StateMachine.StateMachine.FunctionalState(character)
+            return StateMachine.FunctionalState(character)
                 .ExitWhen((c) => loop >= _Drop)
                 .DoOnEnter((c) =>
                 {
